@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html ng-app="demo">
+<head>
+    <title>tx Data Type</title>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.js"></script>
+    <script src="../dist/index.js"></script>
+</head>
+<body ng-controller="DemoController">
+    <div>
+        <h1>tx Data Type</h1>
+        <div>
+            <p><b>String</b> validation with maximum length(optional) = 10</p>
+            <input type="text" tx-data-type="string" tx-max-length="10" ng-model="strValue" />
+            {{strValue}}
+        </div>
+        <div>
+            <p><b>Integer</b> validation with maximum value(optional) = 100</p>
+            <input type="text" tx-data-type="integer" tx-max-value="100" ng-model="intValue" />
+            {{intValue}}
+        </div>
+        <div>
+            <p><b>Decimal</b> validation with maximum value(optional) = 100 & decimal points(optional) = 2</p>
+            <input type="text" tx-data-type="decimal" tx-max-value="100"  ng-model="decValue" />
+            {{decValue}}
+        </div>
+        <div>
+            <p><b>Time</b> with format HH:MM (24 hr)</p>
+            <input type="text" tx-data-type="time" ng-model="timeValue" />
+            {{timeValue}}
+        </div>
+    </div>
+
+
+    <script>
+        var app = angular.module('demo', ['txDataType']);
+        app.controller('DemoController', function ($scope) {
+            $scope.strValue = "";
+            $scope.intValue = "";
+            $scope.decValue = "";
+            $scope.timeValue = "";
+        });
+    </script>
+
+</body>
+</html>

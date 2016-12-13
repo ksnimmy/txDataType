@@ -1,0 +1,28 @@
+{
+  "name": "txdatatype",
+  "version": "1.0.0",
+  "description": "AngularJS data validation directive for input control. This allows to enter only the enabled data type. Currently supporting string, integer, decimal and time data types.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "gulp build",
+    "start": "node webserver.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksnimmy/txDataType.git"
+  },
+  "author": "Nimmy Sambasivan",
+  "license": "MIT",
+  "devDependencies": {
+    "connect": "^3.4.1",
+    "gulp": "^3.9.1",
+    "gulp-angular-templatecache": "^1.8.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-csso": "^1.1.0",
+    "gulp-jshint": "^2.0.0",
+    "gulp-sass": "^2.2.0",
+    "gulp-uglify": "^1.5.3",
+    "jshint": "^2.9.1",
+    "serve-static": "^1.10.2"
+  }
+}

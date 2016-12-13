@@ -1,0 +1,12 @@
+{
+  "name": "txDataType",
+  "version": "1.0.0",
+  "homepage": "https://github.com/ksnimmy/txDataType.git",
+  "authors": [
+    "Nimmy Sambasivan"
+  ],
+  "description": "AngularJS data validation directive for input control",
+  "main": "dist/index.js",
+  "keywords": [],
+  "license": "MIT"
+}
