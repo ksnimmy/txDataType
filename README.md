@@ -1,10 +1,10 @@
 # txDataType
 AngularJS data validation directive for input control. This allows to enter only the enabled data type. Currently supporting string, integer, decimal and time data types.
 
-string - String is allowed with optional max length
-integer - Interger only allowed with optional max value
-decimal - Decimal only allowed with optional decimal points and max value (by default 2 decimal points)
-time - 24 hr Time format(HH:MM) only allowed
+- `string` - String is allowed with optional max length
+- `integer` - Interger only allowed with optional max value
+- `decimal` - Decimal only allowed with optional decimal points and max value (by default 2 decimal points)
+- `time` - 24 hr Time format(HH:MM) only allowed
 
 ## Requirements
 
