@@ -8,7 +8,7 @@ AngularJS data validation directive for input control. This allows to enter only
 
 ## Requirements
 
-- AngularJS 1.4.x  (https://angularjs.org/)
+- AngularJS 1.4.x (https://angularjs.org/)
 
 ## How to Use
 
